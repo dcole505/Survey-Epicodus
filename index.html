@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.5.1.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Document</title>
+</head>
+<body>
+  <div class="container">
+  <h1>Survey</h1>
+  <h2>Name</h2>
+  <form id="name">
+    <div class="form-group">
+    <label for="firstName">First Name</label>
+    <input id="firstName" class="form-control" type="text">
+    </div>
+    <div class="form-group">
+    <label for="lastName">Last Name</label>
+    <input id="lastName" class="form-control" type="text">
+    </div>
+    <button type="submit" class="btn">Click Here!</button>
+  </form>
+    <h2>What is your Favorite Food!</h2>
+  <form id="favoriteFood">
+    <select class="form-control" id="food">
+      <option>Ice Cream</option>
+      <option>Pizza</option>
+      <option>Apples</option>
+    </select>
+    <h2>Favorite Animal</h2>
+    <div class="radio">
+    <label>
+      <input type="radio" name="animal" value="lion">
+      Lion
+    </label>
+    <label>
+      <input type="radio" name="animal" value="tiger">
+      Tiger
+    </label>
+    <label>
+      <input type="radio" name="animal" value="bear">
+      bear
+    </label>
+    </div>
+  </form>
+    <div id="favoriteThings">
+      <p>
+        Hello <span class="firstName"></span> <span class="lastName"></span>! I heard you really like <span class="favoriteAnimal"></span> covered in <span class="favoriteFood"></span>
+        I guess thats cool?
+      </p>
+    </div>
+  </div>
+
+
+
+
+
+
+
+</div>
+</body>
+</html>
